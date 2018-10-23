@@ -2,7 +2,7 @@ const fs = require('fs')
 const path = require('path')
 
 const envdir = dir => {
-  const defaultDir = dir || process.env.ENVDIR || '.env'
+  const defaultDir = dir || process.env.ENVDIR || 'env'
 
   const files = fs.readdirSync(defaultDir)
   files

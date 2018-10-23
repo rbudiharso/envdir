@@ -1,0 +1,15 @@
+{
+  "name": "envdir",
+  "version": "1.0.0",
+  "description": "Set environment variables from files in directory, useful with kubernetes secret.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "kubernetes",
+    "secret"
+  ],
+  "author": "Rahmat Budiharso <rbudiharso@gmail.com>",
+  "license": "MIT"
+}

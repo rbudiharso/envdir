@@ -11,5 +11,8 @@
     "secret"
   ],
   "author": "Rahmat Budiharso <rbudiharso@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "junk": "^2.1.0"
+  }
 }

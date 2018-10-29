@@ -14,7 +14,9 @@ const envdir = dir => {
     })
     .forEach(file => {
       const value = fs.readFileSync(path.join(defaultDir, file))
-      process.env[file] = value.toString().trim()
+      if (!process.env[file]) {
+        process.env[file] = value.toString().trim()
+      }
     })
 }
 
